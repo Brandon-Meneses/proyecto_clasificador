@@ -1,0 +1,13 @@
+# Entorno virtual
+venv310/
+
+# Datos y resultados
+data/
+#results/
+
+# Archivos del sistema
+.DS_Store
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
