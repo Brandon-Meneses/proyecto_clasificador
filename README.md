@@ -18,5 +18,5 @@ Este proyecto es un clasificador de imágenes que distingue entre gatos y perros
 - TensorFlow
 - Matplotlib
 
-Puedes instalar las dependencias necesarias utilizando `pip`
+Puedes instalar las dependencias necesarias utilizando `pip` 
 

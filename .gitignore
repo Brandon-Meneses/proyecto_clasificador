@@ -1,13 +1,44 @@
-# Entorno virtual
-venv310/
+# Archivos de entorno virtual
+venv/
+venv*/            # Si has nombrado tus entornos como venv310
+*.pyc             # Archivos compilados de Python
+__pycache__/      # Caché de Python
+*.pyo
+*.pyd
 
-# Datos y resultados
-data/
-#results/
+# Archivos de sistema
+.DS_Store         # MacOS
+Thumbs.db         # Windows
+desktop.ini
 
-# Archivos del sistema
-.DS_Store
+# Modelos entrenados y resultados
+models/           # Carpeta con modelos entrenados
+results/          # Gráficas de entrenamiento y resultados
 
-# Archivos de caché de Python
-__pycache__/
-*.pyc
+# Datos grandes o sensibles
+data/             # Dataset (no debe subirse al repositorio)
+
+# Dependencias de Python
+Pipfile           # Archivos de Pipenv
+Pipfile.lock
+requirements.txt
+
+# Configuraciones de IDE
+.vscode/          # Configuraciones de Visual Studio Code
+.idea/            # Configuraciones de IntelliJ/PyCharm
+*.iml
+*.log
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de checkpoints
+checkpoints/
+*.ckpt
+
+# Archivos de salida del entrenamiento
+*.h5              # Modelos guardados en formato HDF5
+*.pb              # Archivos de TensorFlow SavedModel
+*.tflite          # Modelos convertidos a TensorFlow Lite
+*.onnx            # Modelos convertidos a ONNX
